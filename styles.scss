@@ -1,0 +1,51 @@
+$font-size-base: 1.2rem;
+$font-green: #3a5a40;
+@import "bootstrap-5.0.0-beta1/scss/bootstrap";
+
+body {
+    background-color: #f7ede2;
+    font-family: "Open Sans", sans-serif;
+    color: $font-green;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $font-green;
+    h1 {
+        font-family: "Yeseva One", cursive;
+        font-size: 5rem;
+    }
+    h2 {
+        font-family: "Darker Grotesque", sans-serif;
+        margin-left: 10.5rem;
+        margin-top: -1rem;
+        font-size: 2rem;
+    }
+}
+
+.featured-works {
+    object-fit: contain;
+    img {
+        width: 100%;
+    }
+    h2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    a {
+        text-decoration: none;
+        color: $font-green;
+        &:visited {
+            text-decoration: none;
+            color: $font-green;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+        &:active {
+            text-decoration: none;
+        }
+    }
+}
