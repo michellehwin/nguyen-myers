@@ -1,4 +1,5 @@
 /bootstrap
-/dent1_files
+/dent*
+/htmlScrape
 lead_scraper.py
 out.csv

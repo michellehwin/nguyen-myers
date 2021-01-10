@@ -10710,6 +10710,11 @@ body {
   font-family: "Yeseva One", cursive;
   font-size: 7rem;
 }
+@media (max-width: 426px) {
+  .main h1, .main .h1 {
+    font-size: 6rem;
+  }
+}
 .main h2, .main .h2 {
   font-family: "Darker Grotesque", sans-serif;
   margin-left: 15.5rem;
@@ -10735,6 +10740,12 @@ body {
   background-color: #3a5a40;
   color: #f7ede2;
 }
+@media (max-width: 426px) {
+  .about {
+    width: 90vw;
+  }
+}
+
 .featured-works {
   object-fit: contain;
 }
