@@ -10708,15 +10708,33 @@ body {
 }
 .main h1, .main .h1 {
   font-family: "Yeseva One", cursive;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 .main h2, .main .h2 {
   font-family: "Darker Grotesque", sans-serif;
-  margin-left: 10.5rem;
+  margin-left: 15.5rem;
   margin-top: -1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
+.about {
+  height: 80vh;
+}
+.about h1, .about .h1 {
+  text-decoration: underline;
+}
+.about p {
+  padding-top: 20px;
+}
+.about .btn-outline-primary {
+  color: #3a5a40;
+  border-color: #3a5a40;
+  border-radius: 0;
+}
+.about .btn-outline-primary:hover {
+  background-color: #3a5a40;
+  color: #f7ede2;
+}
 .featured-works {
   object-fit: contain;
 }
