@@ -10716,7 +10716,7 @@ body {
   margin-top: -1rem;
   font-size: 2.5rem;
 }
-@media (max-width: 426px) {
+@media (max-width: 767px) {
   .main h1, .main .h1 {
     font-size: 2rem;
   }
