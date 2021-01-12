@@ -10708,18 +10708,25 @@ body {
 }
 .main h1, .main .h1 {
   font-family: "Yeseva One", cursive;
-  font-size: 7rem;
-}
-@media (max-width: 426px) {
-  .main h1, .main .h1 {
-    font-size: 6rem;
-  }
+  font-size: 5rem;
 }
 .main h2, .main .h2 {
   font-family: "Darker Grotesque", sans-serif;
-  margin-left: 15.5rem;
+  margin-left: 28.5rem;
   margin-top: -1rem;
   font-size: 2.5rem;
+}
+@media (max-width: 426px) {
+  .main h1, .main .h1 {
+    font-size: 2rem;
+  }
+  .main h2, .main .h2 {
+    font-size: 1.5rem;
+    margin-left: 9rem;
+  }
+  .main p {
+    font-size: 1rem;
+  }
 }
 
 .about {
@@ -10755,6 +10762,11 @@ body {
 .featured-works h2, .featured-works .h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+@media (max-width: 769px) {
+  .featured-works h2, .featured-works .h2 {
+    font-size: 1.5rem;
+  }
 }
 .featured-works a {
   text-decoration: none;
